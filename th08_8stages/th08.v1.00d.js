@@ -1,46 +1,39 @@
 {
     "binhacks": {
         "th08_8stages_a": {
-            "addr": "0x434f3e",
-            "code": "74 00",
-            "expected": "74 56",
-            "title": "th08_8stages_a"
+            "addr": 0x434f3f,
+            "code":     "00",
+            "expected": "56",
         },
         "th08_8stages_b": {
-            "addr": "0x434fb6",
-            "expected": "833d ccd2 6401 060f 8454 0100 0083",
-            "code": "833d ccd2 6401 0674 0490 9090 9083",
-            "title": "th08_8stages_b"
+            "addr": 0x434fbd,
+            "expected": "0f 8454 0100 00",
+            "code":     "74 0490 9090 90"
         },
         "th08_8stages_c": {
-            "addr": "0x435130",
-            "expected": "7466",
-            "code": "7400",
-            "title": "th08_8stages_c"  
+            "addr": 0x435131,
+            "expected": "66",
+            "code":     "00"
         },
         "th08_8stages_d": {
-            "addr": "0x435f7b",
-            "expected": "83 3d cc d2 64 01 06",
-            "code": "83 3d cc d2 64 01 07",
-            "title": "th08_8stages_d"
+            "addr": 0x435f81,
+            "expected": "06",
+            "code":     "07"
         },
         "th08_8stages_e": {
-            "addr": "0x439d54",
-            "expected": "0f 84 da 00 00 00",
-            "code": "0f 84 1a 00 00 00",
-            "title": "th08_8stages_e"
+            "addr": 0x439d56,
+            "expected": "da",
+            "code":     "1a"
         },
         "th08_8stages_f": {
-            "addr": "0x43c4bf",
-            "expected": "8b 80c4 dd03 0089 45f8 837d f800",
-            "code": "ff 80c4 dd03 00e9 f900 0000 9090",
-            "title": "th08_8stages_f"
+            "addr": 0x43c4bf,
+            "expected": "8b ???? ???? ??89 45f8 837d f800",
+            "code":     "ff ???? ???? ??e9 f900 0000 9090"
         },
         "th08_8stages_g": {
-            "addr": "0x4437ef",
-            "expected": "8b 85e8 feff ff50 68f0 644b 00e8 d0e5 fdff 83c4 08",
-            "code": "c7 85e8 feff ffb9 6168 a2c7 85f0 feff ff00 d40c 00",
-            "title": "th08_8stages_g"
+            "addr": 0x4437ef,
+            "expected": "8b ???? ???? ??50 68f0 644b 00e8 d0e5 fdff 83c4 08",
+            "code":     "c7 ???? ???? ??b9 6168 a2c7 85f0 feff ff00 d40c 00"
         }
     }
 }
